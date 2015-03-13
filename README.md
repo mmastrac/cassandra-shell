@@ -83,9 +83,11 @@ Keys may be specified as a string, array of strings or a key range object. A key
 
 Columns may be specified as a string, array of strings or a column range object. A column range may specify start, end and/or count:
 
-|| `'col'` || Query for a single column ||
-|| `['col1', 'col2']` || Query for a two columns ||
-|| `{start: 'start', end: 'end', count: count}` || Query for a column range ||
+| | |
+|----|-----|
+| `'col'` | Query for a single column |
+| `['col1', 'col2']` | Query for a two columns |
+| `{start: 'start', end: 'end', count: count}` | Query for a column range |
 
 # Examples
 
